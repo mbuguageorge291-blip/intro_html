@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEX</title>
+    <style>
+      .main-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        border: 1px solid #0e0d0d;
+      }
+      .smaller {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        border: 1px solid #0e0d0d;
+      }
+      .s {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        flex: 1 1 200px; /* Grow, shrink, and set a base width */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-1">
+      <div class="smaller">Item 1</div>
+      <div class="smaller">Item 2</div>
+    </div>
+
+    <div class="container">
+      <div class="s">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+          magnam, harum non quam voluptatibus iure magni odit esse soluta?
+          Corrupti, est dolorem blanditiis quia perspiciatis dolorum. Natus
+          iusto cum quae?
+        </p>
+      </div>
+      <div class="s">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
+          iusto aliquid quaerat mollitia, tempora, sapiente et obcaecati fuga
+          delectus adipisci laudantium sed ut omnis maxime consectetur, ipsa
+          nesciunt velit voluptates.
+        </p>
+      </div>
+      <div class="s">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae,
+          laudantium enim quaerat culpa esse laboriosam, dolor molestiae
+          obcaecati libero maiores corporis fugit pariatur nostrum id ipsam
+          perferendis nam nulla! Incidunt.
+        </p>
+      </div>
+      <div class="s">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          enim, eveniet minus aliquam consectetur rem neque nisi ad dolores,
+          quaerat corporis magni omnis atque alias cumque nam dignissimos, nemo
+          animi.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
