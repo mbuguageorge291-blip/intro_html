@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Mea Culpa", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .logo img {
+        width: 50px;
+        height: 50px;
+      }
+      nav {
+        /* background-color: #d64f4f; */
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #ccc;
+      }
+      .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+      }
+      .content ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      .content ul li {
+        margin: 0 10px;
+      }
+      .content ul li a {
+        color: #0a0a0a;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .content ul li a:hover {
+        text-decoration: underline;
+        /* color: #000; */
+        /* background-color: #080808; */
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="content">
+        <div class="logo">
+          <img src="/images/house-chimney_9246364 (1).png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <aside></aside>
+  </body>
+</html>
